@@ -1,5 +1,5 @@
-<template id="demo.widget">
-    <div>demowidget</div>
+<template>
+    <div>demowidget2</div>
 </template>
 <style id="demo-widget" lang="less">
 
@@ -7,20 +7,14 @@
 <script>
     layui.define((exports) => {
         const widget = {
-            cfg:{
-                name  : 'Demo Widget',
-                id    : 'demo.widget',
-                width : 100,
-                setUrl: '',
-            },
-            renderConfig() {
+            name  : 'Demo Widget',
+            id    : 'demo.widget',
+            width : 100,
+            setUrl: '',
+            init() {
 
-            },
-            render() {
-                alert("widget init")
             }
         };
-
         exports('@demo.widget', widget)
     })
 </script>

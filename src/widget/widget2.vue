@@ -1,5 +1,5 @@
-<template id="demo.widget2">
-    <div>demowidget</div>
+<template>
+    <div>demowidget2</div>
 </template>
 <style id="demo-widget2" lang="less">
 
