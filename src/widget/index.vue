@@ -1,6 +1,6 @@
 <template>
     <div class="widget">
-        widget
+        index
         <hr>
         <p>bgcolor</p>
     </div>
@@ -19,7 +19,6 @@
                 return {}
             },
             mounted() {
-                console.log('widget1初始化成功');
             },
         })
 
