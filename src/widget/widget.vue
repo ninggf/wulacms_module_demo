@@ -6,9 +6,11 @@
     </div>
 </template>
 <style id="demo-widget" lang="less">
+.widget{
     p{
         background: green;
     }
+}
 </style>
 <script>
     layui.define((exports) => {

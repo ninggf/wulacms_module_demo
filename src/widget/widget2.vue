@@ -6,8 +6,10 @@
     </div>
 </template>
 <style id="demo-widget2" lang="less">
+.widget2{
     p{
         background: yellow;
+    }
     }
 </style>
 <script>
