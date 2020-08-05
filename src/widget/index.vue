@@ -1,6 +1,6 @@
 <template>
     <div class="widget">
-        index
+        index{{compdata}} 
         <hr>
         <p>bgcolor</p>
     </div>
@@ -16,12 +16,12 @@
     layui.define((exports) => {
         Vue.component('demo-index', {
             template: `$tpl$`,
-            props   : {},
-            data    : function () {
-                return {}
+            props   : {
+                compdata:"",
             },
-            mounted() {
-            },
+            mounted: function() {
+                 console.log(this.compdata)
+            }
         })
 
         exports('@demo.index', {
