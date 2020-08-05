@@ -14,6 +14,6 @@ use backend\classes\PjaxController;
 
 class IndexController extends PjaxController {
     public function index() {
-        return $this->layuiUse('index');
+        return $this->vueComp('index');
     }
 }
