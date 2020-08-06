@@ -1,5 +1,5 @@
 <template>
-    <form class="cooly-form" action="">
+    <form class="widget3" >
             <div>
                 <label>输入框</label><input type="text" placeholder="请输入安全码">
             </div>
@@ -7,7 +7,7 @@
 </template>
 <script>
     layui.define((exports) => {
-        Vue.component('coolay-form', {
+        Vue.component('widget3', {
             template: `$tpl$`,
             props: {
                 info: "",
@@ -19,10 +19,20 @@
                 return {}
             },
             mounted() {
-                console.log('coolay-form 初始化成功');
             },
         })
-        exports('&widget3',{name:'coolay-form'});
+        const widget = {
+            cfg:{
+                name  : 'demo.widget3',
+                id    : 'demo.widget3',
+                component:"widget3",
+                width : 50,
+                setUrl: '',
+            },
+           
+        };
+        // exports('&widget3',{name:'coolay-form'});
+        exports('@demo.widget3',widget);
     })
 </script>
 <style id="coolay-form" lang="less">

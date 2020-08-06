@@ -22,7 +22,6 @@
                 return {}
             },
             mounted() {
-                console.log('widget1初始化成功');
             },
         })
         const widget = {
