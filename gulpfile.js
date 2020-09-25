@@ -198,13 +198,13 @@ const buildVue = cb => {
 
 const watching = cb => {
     // start dev server
-    connect.server({
-        root      : './',
-        livereload: true,
-        port      : 9090,
-    })
-
-    options.watch = true
+    // connect.server({
+    //     root      : './',
+    //     livereload: true,
+    //     port      : 9090,
+    // })
+    options.env ="dev"
+    options.watch = false
 
     watch(['src/js/**/*.js'], buildmJs)
     watch(['src/less/**/*.less'], buildCss)

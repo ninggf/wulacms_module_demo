@@ -15,5 +15,6 @@ use backend\classes\PjaxController;
 class IndexController extends PjaxController {
     public function index() {
         return $this->vueComp('index',['compData'=>['name'=>'a"b"c\'','id'=>111,"list"=>[1,2,3]]] );
+        
     }
 }

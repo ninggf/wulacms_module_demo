@@ -27,6 +27,7 @@ class DemoModule extends CmfModule {
                     'child1' => ['name' => '子菜单1', 'url' => 'demo/test1'],
                     'child2' => ['name' => '子菜单2', 'url' => 'demo/test2'],
                     'child3' => ['name' => '子菜单3', 'url' => 'demo'],
+                    'child4' => ['name' => '子菜单4', 'url' => '#demo/bbbb'],
                 ]
             ],
         ];

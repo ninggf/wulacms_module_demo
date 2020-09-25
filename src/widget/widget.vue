@@ -2,7 +2,7 @@
     <div class="widget">
         widget
         <hr>
-        <p>bgcolor</p>
+        <p>bgco1lor</p>
     </div>
 </template>
 <style id="demo-widget" lang="less">
